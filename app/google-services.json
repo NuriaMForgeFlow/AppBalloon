@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "73138500395",
+    "firebase_url": "https://appballoon-4b11b.firebaseio.com",
+    "project_id": "appballoon-4b11b",
+    "storage_bucket": "appballoon-4b11b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73138500395:android:f813d4f02d78614b",
+        "android_client_info": {
+          "package_name": "com.example.appballoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73138500395-ud7ldn88ejlackjaifonrifgmj82ad9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appballoon",
+            "certificate_hash": "af3806a8bba0443f39d1ef8836cf7cbf9695099f"
+          }
+        },
+        {
+          "client_id": "73138500395-d0stsj96on1d4sjra1uutp1bmh0vdkor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFlR-4lo7VXj5jrbFz4Dp-3dqLTzNhTeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73138500395-d0stsj96on1d4sjra1uutp1bmh0vdkor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

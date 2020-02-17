@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".PassengersList">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the number of passengers:"
+            android:textSize="16dp"
+            />
+
+       <NumberPicker
+           android:id="@+id/np"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+       </NumberPicker>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddM"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:minWidth="160dp"
+        android:background="@color/buttonColor"
+        android:text="Add passengers"/>
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:background="@drawable/rounded"
+        android:textColor="@color/white"
+        android:text="List"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_image_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtDni"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorLightBlue"
+        android:text="Add a photo of the list"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:minWidth="200dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:padding="22dp"
+    >
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:minWidth="100dp"
+        android:background="@color/buttonColor"
+        android:text="Save"/>
+
+</LinearLayout>
+
+
+</LinearLayout>
